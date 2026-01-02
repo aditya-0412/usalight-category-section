@@ -81,9 +81,9 @@
         .content-area {
             position: absolute;
             bottom: 0;
-            left: 0;
+            right: 0;
             background-color: #46586f;
-            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
             padding: 17px;
             display: flex;
             flex-direction: column;
@@ -102,11 +102,11 @@
             height: 30px;
             top: -30px;
             /* Move exactly its height up */
-            left: 0;
+            right: 0;
             /* Align to the left edge */
             background: transparent;
-            border-bottom-left-radius: 30px;
-            box-shadow: -9PX 7px 0 7PX #46586f;
+            border-bottom-right-radius: 30px;
+            box-shadow: 7px 8px 0 7px #46586f;
             /* Use shadow to fill the curve */
             pointer-events: none;
         }
@@ -117,12 +117,12 @@
             position: absolute;
             width: 30px;
             height: 30px;
-            bottom: 0;
-            right: -30px;
+            bottom: 0px;
+            left: -30px;
             /* Move exactly its width to the right */
             background: transparent;
-            border-bottom-left-radius: 30px;
-            box-shadow: -9PX 11px 0 8PX #46586f;
+            border-bottom-right-radius: 30px;
+            box-shadow: 8px 8px 0 8px #46586f;
             pointer-events: none;
         }
 
